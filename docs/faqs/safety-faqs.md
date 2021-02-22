@@ -1,22 +1,21 @@
-# Safety Tips
+# Советы по безопасности
 
+## Осторожнее с кнопкой Medtronic Easy Bolus
 
-## Beware the Medtronic Easy Bolus button
+Легкая в нажатии кнопка Easy Bolus на помпах Medtronic оказалась причиной нескольких случайных введний болюса, когда помпа лежала в кармане у человека. Лучше всего будет отключить кнопку Easy Bolus, так как в любом случае вы будете делать болюсы с телефона.
 
-Medtronic's easy bolus button has been the cause of several accidental boluses when the pump has been carried in a pocket. Best practice would be to disable the Easy Bolus button since you will be doing boluses from the phone anyways.
+## Разрешения на использование данных приложениями для здоровья
 
-## Health app permissions
+Не позволяйте другим приложениям, таким, как Spike App или MyFitnessPal, вносить записи про потребленные углеводы в приложении Здоровье на вашем iPhone. Loop способна читать эти записи, и вы можете быть получить дозу инсулина, рассчитанную с учетом этих углеводов.. Вы можете прочитать более подробную информацию о разрешениях, необходимых программе "Здоровье" [здесь](https://loopkit.github.io/loopdocs/build/health/#loop-permissions).
 
-Do not let other apps, such as Spike App or MyFitnessPal, on your iPhone write carbohydrates to Health app. Loop could read those carbohydrates and you could be dosed for those carbohydrates. You can read more about Health permissions [here](https://loopkit.github.io/loopdocs/build/health/#loop-permissions).
+## Заканчивайте заправку помпы Medtronic
 
-## Finish your Medtronic priming
+После смены канюли, катеторов и резервуара для инсулина на экране помпы Medtronic все еще будет выведено меню, связанное с завершением процесса перезаправки. Убедитесь, что вы закрыли этот экран, и всегда возвращаетесь в главное меню. Помпа Medtronic не возобновит доставку базального инсулина до тех пор, пока Вы не покинете экран заправки.
 
-After a site change and reservoir rewind, Medtronic's pump will have a menu on the pump screen related to finishing your prime. Make sure you complete that screen and always return to the main menu. Medtronic's pump won't resume basal insulin delivery until that priming screen is completed.
+## Знайте свои настройки
 
-## Know your settings
+Не вводите настройки, в которых вы не уверены. Например, если вы не знаете, какое у вас соотношение углеводов, пожалуйста, не вводите ноль или некую свою догадку на эту тему. Вместо этого проверьте свои настройки и поговорите со своим доктором о том, какими должны быть ваши соответствующие настройки.
 
-Do not enter in settings that you are unsure of. For example, if you haven't any idea what your carb ratio is, please don't enter a zero or a wild guess. Instead, test your settings and talk to your health care provider about what your appropriate settings should be.
+## Как отменить введенные данные про углеводы
 
-## How to Cancel Carbs
-
-DO NOT ENTER ACCIDENTAL DUPLICATE CARB ENTRIES. When you enter a meal in Loop and press the save button...those carbs are saved. Let me repeat: THOSE CARBS ARE SAVED...even if you cancel the bolus for them. This is an automated insulin delivery system and if it thinks you have carbs on board, it will try to give you appropriate insulin for those carbs. Most common new user mistake: enters a meal, saves the carbs, has a change of heart or gets confused, and cancels the bolus screen...thinking they've just canceled the entire meal entry. Then they enter in a new carb entry. AND NOW, when you go to bolus...you'll be bolusing for the meal you wanted AND the meal you are mistakenly thinking you had "canceled". You didn't cancel that carb entry though, you had only canceled the bolus...you didn't "unsave" the carbs. If you make a mistake or change your mind on a carb entry after you pressed save, then tap the green carb chart in Loop's main display and edit or delete that entry. CANCELING A BOLUS DOES NOT CANCEL THE CARB ENTRY THAT GOT YOU THERE. You must delete or edit a saved carb entry if you no longer want Loop to provide insulin for it.
+СЛУЧАЙНО НЕ ВВЕДИТЕ  ДУБЛИРУЮЩИЕ ЗАПИСИ ОБ УГЛЕВОДАХ. Когда в Loop вы вводите блюдо и нажимаете кнопку "Сохранить...", данные об углеводах сохраняются. Позвольте мне повторить: они будут сохранены, даже если вы не укажете не делать для них болюс. Это автоматизированная система доставки инсулина, и если она думает, что вы потребили углеводы, она попытается ввести вам инсулин с учетом этих углеводов. Наиболее распространенная ошибка начинающего пользователя: он вводит еду, сохраняет углеводы, решает передумать или путается, и нажимает отмену на экране ввода болюса - думая, что он только что отменили весь ввод еды. Затем он создает новую запись о углеводах. И СЕЙЧАС, когда ты пойдешь в Bolus... ты будешь болеть за еду, которую хочешь, и за еду, которую ты ошибочно думаешь, что "отменила". Ты не отменил ту запись об углеводах, ты только отменил болюс... ты не "отменил" углеводы. Если после нажатия кнопки "Сохранить" вы сделали ошибку или передумали насчет углеводов, нажмите на зеленую карту углеводов на главном дисплее Loop и отредактируйте или удалите эту запись. ОТМЕНА БОЛЮСА НЕ ОТМЕНЯЕТ ЗАПИСЬ УГЛЕВОДОВ, КОТОРЫЕ ПРИВЕЛИ ВАС ТУДА. Вы должны удалить или отредактировать сохраненную запись carb, если вы больше не хотите, чтобы Loop предоставить инсулин для него.
