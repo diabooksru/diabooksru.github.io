@@ -1,6 +1,6 @@
 # Loop Docs
 
-Этот репозиторий содержит исходные файлы для сайта [LoopDocs](https://loopkit.github.io/loopdocs).
+Этот репозиторий содержит исходные файлы для русской версии сайта [LoopDocs](https://loopkit.github.io/loopdocs).D
 
 ## Вклад
 
