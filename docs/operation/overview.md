@@ -1,51 +1,50 @@
-# How to set up your Loop app
+# Как настроить ваше приложение Loop
 
-This section of LoopDocs, under the general menu tab "Set up App", goes through all the important information about the process to properly set up all your needed information. You will need to work through the steps listed in the headings under this page one by one. Please follow along with each page's information to make sure that you don't miss any valuable information about your Loop's settings and function. 
+В этом разделе LoopDocs, под общим меню вкладки "Настройка приложения", изложена  важные сведения о процессе настройки, что даёт возможность правильно задать всю необходимую информацию. Вам необходимо будет поочередно проработать шаги настройки, перечисленные в заголовках под этой страницей. Пожалуйста, просмотрите информацию на каждой странице, чтобы убедиться, что вы не пропустили никакой ценной информации о настройках и функциях Loop. 
 
-## Add Pump
+## Добавить помпу
 
-The first step to setting up your Loop app is to tell Loop which pump you're using. There are separate pages for setting up a Medtronic (MDT) pump or an Omnipod Eros pump (aka "pods"). Click on one of the pages to go straight to that page's guide.
+Первый шаг к настройке приложения Loop - сообщить Loop, какую помпу вы используете. Существую отдельные страницы для настройки помпы Medtronic (MDT) или Omnipod Eros (он же "поды"). Нажмите на одну из ссылок, чтобы перейти прямо к соответствющеу руководству.
 
 </br>
 <p align="center">
-[Add Medtronic Pump](https://loopkit.github.io/loopdocs/operation/loop-settings/mdt-pump)</br></br>
-[Add Omnipod Pump](https://loopkit.github.io/loopdocs/operation/loop-settings/omnipod-pump)
+[Добавить помпу Medtronic](/operation/loop-settings/mdt-pump)</br></br>
+[Добавить под OmniPod](/operation/loop-settings/omnipod-pump)
 </p></br>
 
 <p align="center">
-<img src="../img/pick-pump.png" width="250">
+<img src=".../img/pick-pump.png" width="250" >
 </p></br>
 
-## Add CGM
+## Добавить CGM
 
-You will need to add a CGM source for your Loop app. If you are wondering which CGMs are supported natively by Loop, check [here](https://loopkit.github.io/loopdocs/setup/requirements/cgm/). The guide for adding the CGM source is [here](https://loopkit.github.io/loopdocs/operation/loop-settings/cgm/)
+Вам нужно будет добавить используемый вами источник данных мониторинга ГК. Если вам интересно, какие CGM-системы поддерживаются Loop, проверьте [эту страницу](https://loopkit.github.io/loopdocs/setup/requirements/cgm/). Руководство по добавлению источника CGM находится [здесь](https://loopkit.github.io/loopdocs/operation/loop-settings/cgm/).
 
 <p align="center">
-<img src="../img/add-cgm-main.jpeg" width="250">
+<img src=".../img/add-cgm-main.jpeg" width="250" >
 </p></br>
 
-## Configurations
+## Конфигурация
 
-There is a particular section of Loop's settings area called "Configurations". Within this section, you will be entering many settings that you are already familiar with such as basal rates, carb ratios, and insulin sensitivity factor (aka correction factor). There are also several new terms that you may be unfamiliar with like insulin model selection, suspend threshold, and override ranges. Make sure you walk through the setup guide [here](https://loopkit.github.io/loopdocs/operation/loop-settings/configurations/) for the configurations.
+Существует определенный раздел области настроек Loop под названием "Конфигурации". В этом разделе Вы указываете множество настроек, с которыми Вы уже знакомы, таких как базальные скорости, коэффициенты углеводов и коэффициент инсулиновой чувствительности (так же известный как поправочный коэффициент). Есть также несколько новых терминов, с которыми вы можете быть незнакомы, например, выбор модели инсулина, порог откладывания и диапазоны переопределения. Обязательно ознакомьтесь с руководством по настройке для конфигураций [по этой ссылке](https://loopkit.github.io/loopdocs/operation/loop-settings/configurations/) .
 
 <p align="center">
-<img src="../img/overview.jpg" width="250">
+<img src=".../img/overview.jpg" width="250" >
 </p></br>
 
-## Services (optional)
+## Службы (необязательно)
 
-The last section of entries to your Loop app, [Services](https://loopkit.github.io/loopdocs/operation/loop-settings/services) involve optional services that you can choose to send Loop data to. The most popular of those services is likely your Nightscout site; but there are also logging sites that can store information about your Loop errors and messages. All of these services are optional; not using these services will not affect your ability to Loop.
+Последний раздел настройки в вашем приложении Loop - это раздел [Службы] (https://loopkit.github.io/loopdocs/operation/loop-settings/services), он включает дополнительные службы, в которые Loop, по вашему выбору, может отправлять данные. Наиболее популярной из этих служб, вероятно, является указание сайта Nightscout; но есть также сервисы логирования, которые могут сохранять информацию об ошибках и сообщенях Loop. Все эти службы являются необязательными; отказ от использования этих служб не повлияет на вашу способность использовать Loop.
 
 <p align="center">
-<img src="../img/overview-services.jpg" width="250">
+<img src=".../img/overview-services.jpg" width="250" >
 </p></br>
 
-## Loop Displays
+## Вывод информации на экран
 
-After you are done setting up all your information, you will also need to familiarize yourself with the Loop's various information displays. [This page](https://loopkit.github.io/loopdocs/operation/loop-settings/displays/) will help you recognize what all the icons, graphs, and data mean.
+После того, как вы закончите задавать другие настройки, вам также нужно будет ознакомиться с различными информационными дисплеями Loop. [Эта страница](https://loopkit.github.io/loopdocs/operation/loop-settings/displays/) поможет вам распознать, что означают все эти значки, графики и данные.
 
-## RileyLink menu
+## Меню RileyLink
 
-The RileyLink itself has some menu displays and commands which provide useful information for your Loop. Check out [this page](https://loopkit.github.io/loopdocs/operation/loop-settings/rileylink) to read up about the various options available.
-
+Сама по себе RileyLink понимает несколько команд, которые предоставляют полезную информацию для Loop. Посетите [эту страницу](https://loopkit.github.io/loopdocs/operation/loop-settings/rileylink), чтобы прочитать о различных доступных опциях.
 
